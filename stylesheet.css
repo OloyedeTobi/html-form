@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color:lightgray;
+}
+
+.co-1{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    
+    align-content: center;
+    border-radius: 5%;
+    margin: 30px;
+    width: auto;
+    height: auto;
+    padding: 2em;
+
+}
+
+.flexchild1{ 
+    width: 50vw;
+    height: 100vh;
+    flex-basis: 40%;
+    align-items: flex-start;
+    padding: 5em 0 0 0;
+    
+    
+    
+    
+}
+
+img{
+width:inherit ;
+border-radius: 5%;
+height: inherit;
+
+
+}
+
+.flexchild2{ 
+    width: 30%;
+    height: auto;
+    flex-basis: 40%;
+    flex-wrap: nowrap;
+    padding: 5em;
+    
+    
+    
+    
+}
+.co-2{
+    padding: 1em 0 1em 1em;
+    height: inherit;
+    
+    
+}
+
+h2{
+    font-size: 2.2em;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 0.7em;
+
+}
+
+.inp{
+border-radius: 0px;
+border: 1px solid black;
+padding: 0.6em;
+background-color: #fcecf7;
+width: 100%;
+}
+
+.fname, .city, .desc{  
+    display: flex;
+    flex-grow: 1;
+    margin: 0 0 1em 0;
+    width: 95%;
+
+}
+
+.co-3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.2em;
+    
+
+}
+
+
+
+
+.nom-2{
+    display: grid;
+grid-column: 1/4;
+grid-template-columns: 1fr;
+
+}
+.co-4{
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis:100%;
+    margin-bottom: 1em;
+    
+}
+
+
+    
+
+.submit{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-content: center;
+    padding: 1em;
+    background-color: hsla(309, 56%, 83%, 0.959);
+    font-size:1.1em;
+    font-weight: bold;
+    border-radius: 25px;
+    
+}
+
+footer{
+    text-align: center;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.n1{
+margin-bottom: 1em;
+width: 98.2%;
+}
+
+@media (max-width: 1200px) {
+ .co-1{
+     display: grid ;
+     max-width: 100%;
+     grid-template-rows:1fr 1fr;
+     padding: 2em;
+     margin-top:-20%;
+     border-radius: 0px;
+ }   
+ .n1{
+     flex-wrap: wrap;
+ }
+ .flexchild1{
+     width: 100%;
+     border-radius: 0px;
+     margin: 0px;
+
+ }
+ .flexchild2{
+     width: 100%;
+     margin: 0px;
+     padding: 0px;
+
+ }   
+}
